@@ -58,6 +58,7 @@ public class NpcShop : MonoBehaviour
         shopEnabled = !shopEnabled;
         shopPanel.SetActive(shopEnabled);
 
+
         // Desactiva o activa los controles del jugador
         playerMovement.controlsEnabled = !shopEnabled;
         playerLook.controlsEnabled = !shopEnabled;
