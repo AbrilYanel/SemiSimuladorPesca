@@ -24,7 +24,7 @@ public class FishingRod : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && currentHook == null)
         {
             // Verificar si el inventario está lleno
-            if (fishingManager != null && fishingManager.CaughtFishCount >= FishingManager.MaxFishLimit)
+            if (fishingManager != null && fishingManager.CaughtFishCount >= fishingManager.MaxFishLimit)
             {
                 // Mostrar mensaje de inventario lleno
                 StartCoroutine(fishingManager.ShowFullInventoryMessage());

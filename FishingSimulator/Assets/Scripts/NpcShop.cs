@@ -24,6 +24,8 @@ public class NpcShop : MonoBehaviour
 
     public int playerCoins = 0;
 
+    private int upgradeCost = 1000; // Costo de la mejora
+
     void Start()
     {
         playerMovement = player.GetComponent<FirstPersonMovement>();
@@ -92,7 +94,20 @@ public class NpcShop : MonoBehaviour
 
     public void Upgrade()
     {
-        Debug.Log("Mejoraste algo.");
+        // Verificar si el jugador tiene suficientes monedas
+        if (playerCoins >= upgradeCost)
+        {
+            playerCoins -= upgradeCost; // Descontar el costo de la mejora
+            fishingManager.IncreaseInventoryLimit(); // Aumentar el límite de inventario
+            UpdateCurrencyText(); // Actualizar el texto de la moneda
+
+            Debug.Log("Has mejorado tu inventario a 10 espacios.");
+            upgradeButton.enabled = false;
+        }
+        else
+        {
+            Debug.Log("No tienes suficientes monedas para la mejora.");
+        }
     }
 
     public void CloseShop()
@@ -103,7 +118,7 @@ public class NpcShop : MonoBehaviour
     // Actualiza el texto de las monedas en la UI
     void UpdateCurrencyText()
     {
-        currencyText.text = "Money: " + playerCoins;
+        currencyText.text = "$" + playerCoins;
     }
 
     void OnTriggerEnter(Collider other)
