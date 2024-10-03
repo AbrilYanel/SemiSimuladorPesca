@@ -69,13 +69,13 @@ public class Conversacion : MonoBehaviour
         dialogueText.text = "NPC: Hola, bienvenido al lago.";
         yield return new WaitForSeconds(2f);
 
-        dialogueText.text = "Player: ¿Que se hace aca?";
+        dialogueText.text = "Player: Buenass, gracias ¿Que se hace aca?";
         yield return new WaitForSeconds(3f);
 
-        dialogueText.text = "NPC: La gente se junta a pescar, intenta lanzar la cania al agua presionando click derecho, luego recuperala con click izquierdo.";
-        yield return new WaitForSeconds(5f);
+        dialogueText.text = "NPC: La gente se junta a pescar, activa tu caña con 'C' e intenta lanzarla al agua presionando click derecho, luego recuperala con click izquierdo.";
+        yield return new WaitForSeconds(7f);
 
-        dialogueText.text = "Player: De acuerdo.";
+        dialogueText.text = "Player: Bueno dale ahi lo intento.";
         yield return new WaitForSeconds(2f);
 
         dialoguePanel.SetActive(false); // Ocultar el panel de diálogo
