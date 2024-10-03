@@ -10,7 +10,7 @@ public class FishingManager : MonoBehaviour
     public Text fishListText; // UI Text para mostrar la lista de peces
     public Text catchMessageText; // UI Text para mostrar el mensaje de pez atrapado
     public Text fullInventoryMessageText; // UI Text para mostrar el mensaje de inventario lleno
-    private List<Fish> caughtFish = new List<Fish>(); // Lista para almacenar los peces atrapados
+    public List<Fish> caughtFish = new List<Fish>(); // Lista para almacenar los peces atrapados
     private const int maxFishLimit = 5; // Límite máximo de peces
 
     public int CaughtFishCount => caughtFish.Count; // Propiedad para obtener el número de peces atrapados
@@ -40,7 +40,7 @@ public class FishingManager : MonoBehaviour
         StartCoroutine(ShowCatchMessage());
     }
 
-    void UpdateFishListUI()
+    public void UpdateFishListUI()
     {
         fishListText.text = "Inventario\n"; // Reiniciar el texto
         foreach (Fish fish in caughtFish)

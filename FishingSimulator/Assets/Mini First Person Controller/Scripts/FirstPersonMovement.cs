@@ -4,6 +4,7 @@ using UnityEngine;
 public class FirstPersonMovement : MonoBehaviour
 {
     public float speed = 5;
+    public bool controlsEnabled = true;  // Nueva variable
 
     [Header("Running")]
     public bool canRun = true;
@@ -22,50 +23,45 @@ public class FirstPersonMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
-    /// <summary> Functions to override movement speed. Will use the last added override. </summary>
     public List<System.Func<float>> speedOverrides = new List<System.Func<float>>();
 
     void Awake()
     {
-        // Get the rigidbody on this.
         rigidbody = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
-        // Check if the player is on the ground.
+        if (!controlsEnabled) return;  // No permitir movimientos si los controles están desactivados
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        // Check for jump input.
         if (isGrounded && Input.GetKeyDown(jumpKey))
         {
-            jumpRequest = true; // Set jumpRequest to true to handle it in FixedUpdate.
+            jumpRequest = true;
         }
     }
 
     void FixedUpdate()
     {
-        // Update IsRunning from input.
+        if (!controlsEnabled) return;
+
         IsRunning = canRun && Input.GetKey(runningKey);
 
-        // Get targetMovingSpeed.
         float targetMovingSpeed = IsRunning ? runSpeed : speed;
         if (speedOverrides.Count > 0)
         {
             targetMovingSpeed = speedOverrides[speedOverrides.Count - 1]();
         }
 
-        // Get targetVelocity from input.
         Vector2 targetVelocity = new Vector2(Input.GetAxis("Horizontal") * targetMovingSpeed, Input.GetAxis("Vertical") * targetMovingSpeed);
 
-        // Apply movement.
         rigidbody.velocity = transform.rotation * new Vector3(targetVelocity.x, rigidbody.velocity.y, targetVelocity.y);
 
-        // Handle jump.
         if (jumpRequest)
         {
             rigidbody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            jumpRequest = false; // Reset the jump request after jumping.
+            jumpRequest = false;
         }
     }
 }

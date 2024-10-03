@@ -1,0 +1,459 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 15781 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/Cheee/OneDrive/Documentos/GitHub/SemiSimulador/FishingSimulator
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+60606
+Successfully changed project path to: C:/Users/Cheee/OneDrive/Documentos/GitHub/SemiSimulador/FishingSimulator
+C:/Users/Cheee/OneDrive/Documentos/GitHub/SemiSimulador/FishingSimulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6728] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 1456377119 [EditorId] 1456377119 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3OIPDIC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6728] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 1456377119 [EditorId] 1456377119 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3OIPDIC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 24.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cheee/OneDrive/Documentos/GitHub/SemiSimulador/FishingSimulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7890 MB
+    Driver:   31.0.21912.14
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012199 seconds.
+- Loaded All Assemblies, in  0.860 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1551ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (294ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (568ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (30ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.218 seconds
+Refreshing native plugins compatible for Editor in 7.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.483 seconds
+Domain Reload Profiling: 4695ms
+	BeginReloadAssembly (636ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (2393ms)
+		LoadAssemblies (2075ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (798ms)
+			TypeCache.Refresh (742ms)
+				TypeCache.ScanAssembly (701ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1486ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (321ms)
+			ProcessInitializeOnLoadAttributes (728ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 89.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4986 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (68.3 MB). Loaded Objects now: 5457.
+Memory consumption went from 209.4 MB to 141.1 MB.
+Total: 19.470900 ms (FindLiveObjects: 2.760100 ms CreateObjectMapping: 0.868500 ms MarkObjects: 14.867200 ms  DeleteObjects: 0.973300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/Inventory.cs: d078795b7125c8d5b747e156a3e12651 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Fi.cs: e29d8ca99aeaaeb8636ef1f0d0aeb690 -> 
+  custom:scripting/monoscript/fileName/Fish.cs: e755df769bea3651f39c80c9e964fc31 -> 
+  custom:scripting/monoscript/fileName/FishClass.cs: e29d8ca99aeaaeb8636ef1f0d0aeb690 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37491.405894 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs
+  artifactKey: Guid(8b20bea29a7bd9e4c8f46722a083030a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs using Guid(8b20bea29a7bd9e4c8f46722a083030a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b38651a1d334505017875038352a2fc') in 0.312623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/07_Tavern_UmbrelaTable_2.fbx
+  artifactKey: Guid(93a4a2b4586aee74b9d9943c0e58fa36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/07_Tavern_UmbrelaTable_2.fbx using Guid(93a4a2b4586aee74b9d9943c0e58fa36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5b741b597cee45f75f89caf13f5d095e') in 0.278803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TerrainTexturesPackFree/TerrainTextures/depositphotos_10589691-stock-photo-ground-background.jpg
+  artifactKey: Guid(8d36cf917a3921b44a88796d6fea594f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainTexturesPackFree/TerrainTextures/depositphotos_10589691-stock-photo-ground-background.jpg using Guid(8d36cf917a3921b44a88796d6fea594f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c702d6bf499fff069e6786a7fd1975b') in 0.152293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_CannonBalls_Crate.prefab
+  artifactKey: Guid(980b91e8cbed06e478940675b9fff521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/04_CannonShop_CannonBalls_Crate.prefab using Guid(980b91e8cbed06e478940675b9fff521) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64ecd1d873418f5576c2c071ac20ab07') in 0.078748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs
+  artifactKey: Guid(97fca36bd81de7c4cafce7bbf02ca611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs using Guid(97fca36bd81de7c4cafce7bbf02ca611) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ea94b2cec53752c6cb2b8a60826d73a') in 0.049589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TerrainTexturesPackFree/DemoScene/Demo/LightingData.asset
+  artifactKey: Guid(c27cece679222974288960f8f39c850a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TerrainTexturesPackFree/DemoScene/Demo/LightingData.asset using Guid(c27cece679222974288960f8f39c850a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '2bc041c4378b610cc3aaeb8b859e3b0e') in 0.223668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Sack_Stack.fbx
+  artifactKey: Guid(fff8b52e2b2e5c94a8c220f902903426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Sack_Stack.fbx using Guid(fff8b52e2b2e5c94a8c220f902903426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f866138ff16557720c478e79537d62a1') in 0.079905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/02_Market_Barrel_Stack_3.prefab
+  artifactKey: Guid(4ab2a9173bca1d748b8bef2716372344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/02_Market_Barrel_Stack_3.prefab using Guid(4ab2a9173bca1d748b8bef2716372344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a04aa8e99527ec4850d48b3cbe2ae9e8') in 0.075131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Crate_2.fbx
+  artifactKey: Guid(42386b16574d80c4b82fdad4fb7e7bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Crate_2.fbx using Guid(42386b16574d80c4b82fdad4fb7e7bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '176bac1b13c8dcfaac0c6b6b8a2ffc2a') in 0.074784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Mini First Person Controller/Audio/Jump/Jump 2.wav
+  artifactKey: Guid(5b26cf3cd5f6b914a80e6d3476caaf86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Jump/Jump 2.wav using Guid(5b26cf3cd5f6b914a80e6d3476caaf86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '732785232d24065ec38b42418bb34c0c') in 0.217849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001111 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/00_Island_3.fbx
+  artifactKey: Guid(32f383f06f55662488a8b6ffb65c0795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/00_Island_3.fbx using Guid(32f383f06f55662488a8b6ffb65c0795) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4537999441c7e572d04bf6f04fed057') in 0.096388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000844 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/99_Ship_L2.prefab
+  artifactKey: Guid(a0de0a21bf9c7fa478938b5d66a18878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/99_Ship_L2.prefab using Guid(a0de0a21bf9c7fa478938b5d66a18878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '116adc457cc2e36f3b9f693cbc13d909') in 0.064822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 123
+========================================================================
+Received Import Request.
+  Time since last request: 0.003185 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/01_House_1.fbx
+  artifactKey: Guid(54aa764c52797ba44bd5290304e5010a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/01_House_1.fbx using Guid(54aa764c52797ba44bd5290304e5010a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb0d9afdb1ef6a80552527ff13d42020') in 0.102808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishermanStand_3.fbx
+  artifactKey: Guid(e86cf1db2dedac243a9ceffe2f9e4567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishermanStand_3.fbx using Guid(e86cf1db2dedac243a9ceffe2f9e4567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d1053357ff9a86785f522669757bd7a') in 0.055573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/05_Destilery_Rum_Bottle_3.prefab
+  artifactKey: Guid(10b87e9de5680434f9ab8c50536dd25a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/05_Destilery_Rum_Bottle_3.prefab using Guid(10b87e9de5680434f9ab8c50536dd25a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a1bf79797c2a39fec32b809753aa085') in 0.093297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '76d9f0a70c2805c7942d222e67c570d6') in 0.079252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/02_Market_Crate_2.prefab
+  artifactKey: Guid(ee3e1c46b473f744bb23691f03d6d290) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/02_Market_Crate_2.prefab using Guid(ee3e1c46b473f744bb23691f03d6d290) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '3f6a3bc03dc3674c60a6f86713328736') in 0.092983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/00_Island_7.prefab
+  artifactKey: Guid(7e0ec412034c76d44a0889e92c219b16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/00_Island_7.prefab using Guid(7e0ec412034c76d44a0889e92c219b16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89c797ce5fc7dafde25fbbc7345e447d') in 0.113520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TerrainTexturesPackFree/DemoScene/Demo.unity
+  artifactKey: Guid(0f87e1ea3d646654e8ed88aa05f98968) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TerrainTexturesPackFree/DemoScene/Demo.unity using Guid(0f87e1ea3d646654e8ed88aa05f98968) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/TerrainTexturesPackFree/DemoScene/Demo.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Tree prefab at index 0 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 1 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 2 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 3 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 4 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 5 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 6 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 7 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 8 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Tree prefab at index 9 is missing.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 321]
+
+Loaded scene 'Assets/TerrainTexturesPackFree/DemoScene/Demo.unity'
+	Deserialize:            680.369 ms
+	Integration:            6705.105 ms
+	Integration of assets:  402.103 ms
+	Thread Wait Time:       -371.505 ms
+	Total Operation Time:   7416.072 ms
+ -> (artifact id: '8461bff071f5380eb185751ed6080f3f') in 7.686692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

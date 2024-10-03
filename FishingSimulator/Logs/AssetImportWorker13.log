@@ -1,0 +1,453 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 15781 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/Cheee/OneDrive/Documentos/GitHub/SemiSimulador/FishingSimulator
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+60606
+Successfully changed project path to: C:/Users/Cheee/OneDrive/Documentos/GitHub/SemiSimulador/FishingSimulator
+C:/Users/Cheee/OneDrive/Documentos/GitHub/SemiSimulador/FishingSimulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24720] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 209978409 [EditorId] 209978409 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3OIPDIC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24720] Host "[IP] 192.168.0.13 [Port] 0 [Flags] 2 [Guid] 209978409 [EditorId] 209978409 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3OIPDIC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 36.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cheee/OneDrive/Documentos/GitHub/SemiSimulador/FishingSimulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7890 MB
+    Driver:   31.0.21912.14
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012773 seconds.
+- Loaded All Assemblies, in  0.582 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.244 seconds
+Domain Reload Profiling: 824ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.835 seconds
+Refreshing native plugins compatible for Editor in 6.35 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.987 seconds
+Domain Reload Profiling: 1818ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (607ms)
+		LoadAssemblies (464ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (156ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (987ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (760ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (531ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4986 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (68.3 MB). Loaded Objects now: 5457.
+Memory consumption went from 209.3 MB to 141.0 MB.
+Total: 7.166600 ms (FindLiveObjects: 0.384800 ms CreateObjectMapping: 0.301400 ms MarkObjects: 6.136400 ms  DeleteObjects: 0.342700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/Inventory.cs: d078795b7125c8d5b747e156a3e12651 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Fi.cs: e29d8ca99aeaaeb8636ef1f0d0aeb690 -> 
+  custom:scripting/monoscript/fileName/Fish.cs: e755df769bea3651f39c80c9e964fc31 -> 
+  custom:scripting/monoscript/fileName/FishClass.cs: e29d8ca99aeaaeb8636ef1f0d0aeb690 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37615.411702 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Banner.prefab
+  artifactKey: Guid(2867abe7f655c6143a01ae963ab7c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Prefabs/06_MusketShop_Banner.prefab using Guid(2867abe7f655c6143a01ae963ab7c4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43673af60c917719815c1052f11d586') in 0.409521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 63.995954 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/00_Island_1.fbx
+  artifactKey: Guid(58d502e922409424cacc17041a4fbd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/00_Island_1.fbx using Guid(58d502e922409424cacc17041a4fbd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0431ec4176d4102f55df239c2834802a') in 0.103559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Banner_Barrels.fbx
+  artifactKey: Guid(49e272a6035c131408a2014d7e13bbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Banner_Barrels.fbx using Guid(49e272a6035c131408a2014d7e13bbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc3224ccc6d586aaa6c8c5cd8dc2a06') in 0.041876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_Bucket_Empty.fbx
+  artifactKey: Guid(fc6740e9ed3616048bc5e1b2b518357b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_Bucket_Empty.fbx using Guid(fc6740e9ed3616048bc5e1b2b518357b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb321e838e022ff587eb23946d7ac533') in 0.071197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Barrel_Stack_3.fbx
+  artifactKey: Guid(811e88832050cd1429a156d3a8ec939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Barrel_Stack_3.fbx using Guid(811e88832050cd1429a156d3a8ec939d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f23b769f4a15f867c1f0a923d38257') in 0.040275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Barrel_Single_Closed.fbx
+  artifactKey: Guid(bd15de13cb7383047bd407f38b7b2a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Barrel_Single_Closed.fbx using Guid(bd15de13cb7383047bd407f38b7b2a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c093dddf765f021ff31ce1a241f93918') in 0.036945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishermanCart.fbx
+  artifactKey: Guid(57b6f43284f4e594894b13115a0a438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishermanCart.fbx using Guid(57b6f43284f4e594894b13115a0a438a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554ce98a18c7a659003c737f2442e1aa') in 0.041289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishermanStand_5.fbx
+  artifactKey: Guid(1d3d8ed0cd0d8c34092b150338efaa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishermanStand_5.fbx using Guid(1d3d8ed0cd0d8c34092b150338efaa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883c8bee0b5c69f7414874d23de89f96') in 0.042822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Cannon_Mold_Crashed.fbx
+  artifactKey: Guid(87af976a6688bbf4ca9e8cd623cb5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Cannon_Mold_Crashed.fbx using Guid(87af976a6688bbf4ca9e8cd623cb5972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96a77614e3f2248fc26bd5225c58451') in 0.039647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Crate_3.fbx
+  artifactKey: Guid(1bfd54d226df73a47a1043fc694d508f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Crate_3.fbx using Guid(1bfd54d226df73a47a1043fc694d508f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe008784d003d377b09f4af4b02e54b9') in 0.035890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishTrap.fbx
+  artifactKey: Guid(f5516ef24675b334590fe8082b5ef832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishTrap.fbx using Guid(f5516ef24675b334590fe8082b5ef832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad0a0309ec50f59c7dc19a9f960dda6') in 0.039845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/01_House_3.fbx
+  artifactKey: Guid(2d1b39d101c03f844aa80059c86e7200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/01_House_3.fbx using Guid(2d1b39d101c03f844aa80059c86e7200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d9a758df43e8e8877368a2a2353b4b') in 0.087983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Banner_Cannon.fbx
+  artifactKey: Guid(43fb5ebd9bcd33b4b9531f3337abb147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Banner_Cannon.fbx using Guid(43fb5ebd9bcd33b4b9531f3337abb147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f383b7bac1f70e147bea6cdec76fb7b') in 0.038496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/00_Island_3.fbx
+  artifactKey: Guid(32f383f06f55662488a8b6ffb65c0795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/00_Island_3.fbx using Guid(32f383f06f55662488a8b6ffb65c0795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dac467a14a1516825a87816b987a0e7') in 0.046880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Cannon.fbx
+  artifactKey: Guid(021f63718ae0ac84cabb4c89d60ae2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Cannon.fbx using Guid(021f63718ae0ac84cabb4c89d60ae2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0887e901edb8db9b23d1417d7d55f6') in 0.036106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Crate_1.fbx
+  artifactKey: Guid(2d7cad0c19c32fd47b653c1cb1d85037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Crate_1.fbx using Guid(2d7cad0c19c32fd47b653c1cb1d85037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6382c63af25aac29292e3759f9e7e9') in 0.049777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Crate_2.fbx
+  artifactKey: Guid(42386b16574d80c4b82fdad4fb7e7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/02_Market_Crate_2.fbx using Guid(42386b16574d80c4b82fdad4fb7e7bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cc91de10aaaf7b95bc92337d8608ff') in 0.051837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Cannon_Cart.fbx
+  artifactKey: Guid(701acdabf1b948e498a5a2c95b65f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Cannon_Cart.fbx using Guid(701acdabf1b948e498a5a2c95b65f618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b37deba63ff132202677b5fd596e939') in 0.055441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishermanStand_1.fbx
+  artifactKey: Guid(f503d54e588bb1e4789d0dcc232e3619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_FishermanStand_1.fbx using Guid(f503d54e588bb1e4789d0dcc232e3619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de4d190ec62ddc90ddccaa8ab8c54d5') in 0.038003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_Banner_BigFish.fbx
+  artifactKey: Guid(64b87c95d9fee68428983f637295527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/03_FishermanHouse_Banner_BigFish.fbx using Guid(64b87c95d9fee68428983f637295527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f627e76beb95852cdd54727e55b7833') in 0.041943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/00_Island_6.fbx
+  artifactKey: Guid(8203ee2186c848749828b5e6cb5e7acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/00_Island_6.fbx using Guid(8203ee2186c848749828b5e6cb5e7acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abad211e7b08e3e8a89937f29dececb') in 0.085506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 1.487221 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Cannon_Mold_Empty.fbx
+  artifactKey: Guid(d1132d7690a564d41b9424a08b454691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_Cannon_Mold_Empty.fbx using Guid(d1132d7690a564d41b9424a08b454691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7fe96efeb63241fdcdac4f0b355c69') in 0.034984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/05_Destilery_Rum_Bottle_3.fbx
+  artifactKey: Guid(617ed56b92ac61e499fc81dfb91b06b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/05_Destilery_Rum_Bottle_3.fbx using Guid(617ed56b92ac61e499fc81dfb91b06b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91315e6482b381b2f51f14d3539259ff') in 0.040297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/05_Destilery_Rum_Bottle_2.fbx
+  artifactKey: Guid(29f07245333b7b6478d7178baca95c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/05_Destilery_Rum_Bottle_2.fbx using Guid(29f07245333b7b6478d7178baca95c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4c4e54b57df78b21b5095b3edbbb6a') in 0.034198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_CannonBall_Stack_2.fbx
+  artifactKey: Guid(218e3a2240f40ea48bd8cbc6619377f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_CannonBall_Stack_2.fbx using Guid(218e3a2240f40ea48bd8cbc6619377f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512ade2a0dabfd288fce1cf5aead370d') in 0.036998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_CannonBall_Stack.fbx
+  artifactKey: Guid(bd8dbaf34d06e01409015ae0bab647ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/04_CannonShop_CannonBall_Stack.fbx using Guid(bd8dbaf34d06e01409015ae0bab647ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58ad5a35cdc316336ccdc8df6c361fd') in 0.031695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 1.326457 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/05_Destilery_Rum_Crate_1.fbx
+  artifactKey: Guid(4c83659745a37c74a821769a0a2646bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/05_Destilery_Rum_Crate_1.fbx using Guid(4c83659745a37c74a821769a0a2646bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f03b45f055549f5b8f4c2c3be14cdc') in 0.033985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/06_MusketShop_Barrel_GunPowder.fbx
+  artifactKey: Guid(704c43ee395b6ea4e95a229d192b30db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/06_MusketShop_Barrel_GunPowder.fbx using Guid(704c43ee395b6ea4e95a229d192b30db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593ef31101e680a7e34049135b99deff') in 0.037351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/07_Tavern_Banner.fbx
+  artifactKey: Guid(72145ee31c13a2b48ade686eaeb75584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/07_Tavern_Banner.fbx using Guid(72145ee31c13a2b48ade686eaeb75584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ea3b486255f10055909f930afb9ca1') in 0.033630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/06_MusketShop_Rifle_2.fbx
+  artifactKey: Guid(28808b202d70f384ea741e8370cb0ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/06_MusketShop_Rifle_2.fbx using Guid(28808b202d70f384ea741e8370cb0ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d20b0f98315ca6e2ccd34049da28ec') in 0.039940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/06_MusketShop_Box_Full.fbx
+  artifactKey: Guid(7a7e92e8dc46b7b4f8e26b0e472a5af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/06_MusketShop_Box_Full.fbx using Guid(7a7e92e8dc46b7b4f8e26b0e472a5af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef4c9ada41a942153e78378a90ca597') in 0.043205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/06_MusketShop_Rifle_1.fbx
+  artifactKey: Guid(b5c4cf23d68933845ac108c978f7ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/06_MusketShop_Rifle_1.fbx using Guid(b5c4cf23d68933845ac108c978f7ab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9159190a58879465ded23d24bb635b') in 0.041103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.919051 seconds.
+  path: Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/07_Tavern_UmbrelaTable_1.fbx
+  artifactKey: Guid(d725f4d99a81de54992fb075b2b6bdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CatBorg Studio/3D Pirates Lowpoly Pack/Models/07_Tavern_UmbrelaTable_1.fbx using Guid(d725f4d99a81de54992fb075b2b6bdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a484c8125dd5aa9c420d119bc9b54e') in 0.035490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
