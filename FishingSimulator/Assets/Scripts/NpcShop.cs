@@ -22,6 +22,9 @@ public class NpcShop : MonoBehaviour
     // Referencia al texto de monedas en la UI
     public Text currencyText;
 
+    // Texto para mostrar cuando no hay suficiente dinero
+    public Text insufficientFundsText;
+
     public int playerCoins = 0;
 
     private int upgradeCost = 1000; // Costo de la mejora
@@ -34,6 +37,9 @@ public class NpcShop : MonoBehaviour
         sellButton.onClick.AddListener(SellFish);
         upgradeButton.onClick.AddListener(Upgrade);
         closeButton.onClick.AddListener(CloseShop);
+
+        // Inicialmente ocultar el texto de "insufficientFunds"
+        insufficientFundsText.gameObject.SetActive(false);
 
         // Actualizar el texto de la moneda al iniciar
         UpdateCurrencyText();
@@ -103,10 +109,19 @@ public class NpcShop : MonoBehaviour
 
             Debug.Log("Has mejorado tu inventario a 10 espacios.");
             upgradeButton.enabled = false;
+
+            // Ocultar el texto de "insufficientFunds" si la mejora es exitosa
+            insufficientFundsText.gameObject.SetActive(false);
         }
         else
         {
             Debug.Log("No tienes suficientes monedas para la mejora.");
+
+            // Mostrar el mensaje de falta de dinero
+            insufficientFundsText.gameObject.SetActive(true);
+
+            // Opcional: ocultar el mensaje después de unos segundos
+            StartCoroutine(HideInsufficientFundsText());
         }
     }
 
@@ -119,6 +134,13 @@ public class NpcShop : MonoBehaviour
     void UpdateCurrencyText()
     {
         currencyText.text = "$" + playerCoins;
+    }
+
+    // Oculta el texto de fondos insuficientes después de unos segundos
+    IEnumerator HideInsufficientFundsText()
+    {
+        yield return new WaitForSeconds(3f);
+        insufficientFundsText.gameObject.SetActive(false);
     }
 
     void OnTriggerEnter(Collider other)

@@ -19,7 +19,7 @@ public class Conversacion : MonoBehaviour
 
     void Start()
     {
-        instructionText.text = "Dirígete hacia el hombre que está pescando e interactúa con él";
+        instructionText.text = "Dirigete hacia el hombre que esta pescando e interactua con el";
         interactText.gameObject.SetActive(false); // Ocultar el texto de "Presiona E" al inicio
         dialoguePanel.SetActive(false); // Ocultar el panel de diálogo
         missionPanel.SetActive(false); // Ocultar el panel de misión
@@ -69,10 +69,10 @@ public class Conversacion : MonoBehaviour
         dialogueText.text = "NPC: Hola, bienvenido al lago.";
         yield return new WaitForSeconds(2f);
 
-        dialogueText.text = "Player: ¿Qué se hace acá?";
+        dialogueText.text = "Player: ¿Que se hace aca?";
         yield return new WaitForSeconds(3f);
 
-        dialogueText.text = "NPC: La gente se junta a pescar, intenta lanzar la caña al agua presionando click derecho, luego recupérala con click izquierdo.";
+        dialogueText.text = "NPC: La gente se junta a pescar, intenta lanzar la cania al agua presionando click derecho, luego recuperala con click izquierdo.";
         yield return new WaitForSeconds(5f);
 
         dialogueText.text = "Player: De acuerdo.";
@@ -86,7 +86,7 @@ public class Conversacion : MonoBehaviour
 
         // Mostrar la misión
         missionPanel.SetActive(true);
-        missionText.text = "Misión: Recolecta un pez.";
+        missionText.text = "Mision: Recolecta un pez.";
     }
 
     // Segunda conversación con el NPC después de recolectar el pez
@@ -94,10 +94,10 @@ public class Conversacion : MonoBehaviour
     {
         interactText.gameObject.SetActive(false);
         dialoguePanel.SetActive(true);
-        dialogueText.text = "NPC: Buen trabajo, ahora puedes verlo en tu inventario (I), intenta venderlo en la tienda.";
+        dialogueText.text = "NPC: Buen trabajo, ahora podes verlo en tu inventario (I), intenta venderlo en la tienda.";
         yield return new WaitForSeconds(6f);
 
-        dialogueText.text = "NPC: Si juntas suficiente dinero, podrás mejorar tu equipamiento.";
+        dialogueText.text = "NPC: Si juntas suficiente dinero, vas a poder mejorar tu equipamiento.";
         yield return new WaitForSeconds(3f);
 
         dialoguePanel.SetActive(false); // Ocultar el panel de diálogo
@@ -108,6 +108,6 @@ public class Conversacion : MonoBehaviour
     public void CollectFish()
     {
         hasCollectedFish = true;
-        missionText.text = "Misión completa: Pez recolectado.";
+        missionText.text = "Mision completa: Pez recolectado.";
     }
 }
